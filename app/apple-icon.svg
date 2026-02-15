@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <!-- Toggle track -->
+  <rect x="28" y="62" width="124" height="56" rx="28" fill="rgba(255,255,255,0.25)"/>
+  <!-- Toggle thumb (on position) -->
+  <circle cx="124" cy="90" r="22" fill="white"/>
+</svg>
