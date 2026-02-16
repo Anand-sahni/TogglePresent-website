@@ -127,10 +127,10 @@ export default function PrivacyPage() {
               If you have any questions about this Privacy Policy, please
               contact us at{" "}
               <a
-                href="mailto:support@macoshunt.app"
+                href="mailto:support@macoshunt.com"
                 className="text-blue-600 hover:text-blue-700"
               >
-                support@macoshunt.app
+                support@macoshunt.com
               </a>
               .
             </p>

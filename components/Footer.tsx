@@ -77,10 +77,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:support@macoshunt.app"
+                  href="mailto:support@macoshunt.com"
                   className="text-sm text-slate-500 transition-colors hover:text-blue-600"
                 >
-                  support@macoshunt.app
+                  support@macoshunt.com
                 </a>
               </li>
             </ul>

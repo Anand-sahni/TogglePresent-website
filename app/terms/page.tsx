@@ -148,10 +148,10 @@ export default function TermsPage() {
             <p>
               If you have any questions about these Terms, please contact us at{" "}
               <a
-                href="mailto:support@macoshunt.app"
+                href="mailto:support@macoshunt.com"
                 className="text-blue-600 hover:text-blue-700"
               >
-                support@macoshunt.app
+                support@macoshunt.com
               </a>
               .
             </p>
