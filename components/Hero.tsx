@@ -1,4 +1,20 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
+
 export default function Hero() {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    // If video already has data by the time the effect runs
+    if (video.readyState >= 3) {
+      setVideoLoaded(true);
+    }
+  }, []);
+
   return (
     <section className="relative flex min-h-[100vh] flex-col items-center justify-center px-6 pt-16 text-center">
       {/* Background decoration */}
@@ -8,7 +24,7 @@ export default function Hero() {
       </div>
 
       <h1 className="animate-fade-in-up-delay-1 mt-16 mb-6 max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.1] tracking-tight text-slate-900">
-        Single click, worry-free{" "}
+        Single click, worry free{" "}
         <span className="bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
           presentations
         </span>
@@ -21,7 +37,7 @@ export default function Hero() {
 
       <div className="animate-fade-in-up-delay-3 flex flex-col items-center gap-4 sm:flex-row">
         <a
-          href="https://github.com/Anand-sahni/TogglePresent/releases/latest/download/TogglePresent.dmg"
+          href="https://github.com/Anand-sahni/TogglePresent/raw/main/TogglePresent.dmg"
           className="group inline-flex items-center gap-2.5 rounded-xl bg-blue-600 px-7 py-3.5 text-[15px] font-semibold text-white shadow-lg shadow-blue-600/20 transition-all hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-600/30"
         >
           <svg
@@ -43,13 +59,18 @@ export default function Hero() {
 
       {/* Main demo video */}
       <div className="animate-fade-in-up-delay-3 mt-16 w-full max-w-4xl">
-        <div className="overflow-hidden rounded-2xl border border-blue-200 shadow-2xl shadow-blue-100/50">
+        <div className="relative overflow-hidden rounded-2xl border border-blue-200 shadow-2xl shadow-blue-100/50">
+          {!videoLoaded && (
+            <div className="aspect-video w-full animate-pulse bg-gradient-to-r from-blue-100 via-blue-50 to-blue-100 bg-[length:200%_100%] animate-shimmer" />
+          )}
           <video
+            ref={videoRef}
             autoPlay
             loop
             muted
             playsInline
-            className="w-full"
+            onLoadedData={() => setVideoLoaded(true)}
+            className={`w-full ${videoLoaded ? "" : "absolute inset-0 opacity-0"}`}
           >
             <source src="/main-section-recording.mp4" type="video/mp4" />
           </video>

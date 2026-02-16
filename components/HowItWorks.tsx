@@ -57,7 +57,7 @@ export default function HowItWorks() {
             Get started in seconds
           </h2>
           <p className="mx-auto max-w-lg text-base text-slate-500">
-            Four simple steps to presentation-ready.
+            Four simple steps to presentation ready.
           </p>
         </div>
 

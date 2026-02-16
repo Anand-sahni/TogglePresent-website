@@ -45,7 +45,7 @@ export default function TermsPage() {
               TogglePresent is a macOS menu bar application that helps you
               prepare your Mac for presentations by hiding desktop icons,
               muting audio, disabling notifications, minimizing active apps,
-              and changing wallpaper — all with a single click.
+              and changing wallpaper, all with a single click.
             </p>
           </section>
 

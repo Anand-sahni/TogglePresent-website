@@ -17,7 +17,7 @@ export default function Pricing() {
             Pricing
           </span>
           <h2 className="mb-4 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-3xl">
-            Simple, one-time pricing
+            Simple, one time pricing
           </h2>
           <p className="mx-auto max-w-lg text-base text-slate-500">
             No subscriptions. No hidden fees. Pay once, own it forever.
@@ -53,7 +53,7 @@ export default function Pricing() {
                 </span>
               </div>
               <p className="mb-8 text-center text-sm text-slate-400">
-                One-time payment · Limited time offer
+                One time payment · Limited time offer
               </p>
 
               {/* Divider */}

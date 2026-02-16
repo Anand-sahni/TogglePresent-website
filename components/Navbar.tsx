@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Download button */}
         <a
-          href="#download"
+          href="https://github.com/Anand-sahni/TogglePresent/raw/main/TogglePresent.dmg"
           className="rounded-full border border-blue-200 bg-blue-50 px-5 py-2 text-[13px] font-medium text-blue-600 transition-all hover:bg-blue-100"
         >
           Download

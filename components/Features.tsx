@@ -6,7 +6,7 @@ const features = [
   {
     title: "Hide Desktop Icons",
     description:
-      "Instantly clear your desktop of all icons for a clean, distraction-free screen.",
+      "Instantly clear your desktop of all icons for a clean, distraction free screen.",
     video: "/hide-desktop-icons.mp4",
     icon: (
       <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
