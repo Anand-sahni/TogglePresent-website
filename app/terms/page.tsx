@@ -1,44 +1,47 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms of Service — TogglePresent",
+  title: "Terms of Service",
+  description:
+    "Terms of service for TogglePresent, the one-click presentation mode app for macOS. One-time purchase, lifetime license.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-void">
       {/* Header */}
-      <div className="border-b border-blue-100 bg-slate-50 px-6 py-20 text-center">
+      <div className="border-b border-line bg-panel px-6 py-20 text-center">
         <Link
           href="/"
-          className="mb-6 inline-block text-sm text-blue-600 hover:text-blue-700"
+          className="mb-6 inline-block font-mono text-sm text-cyan transition-colors hover:text-ink"
         >
           &larr; Back to Home
         </Link>
-        <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">
           Terms of Service
         </h1>
-        <p className="mt-3 text-sm text-slate-500">
+        <p className="mt-3 font-mono text-sm text-muted">
           Last updated: February 14, 2026
         </p>
       </div>
 
       {/* Content */}
       <div className="mx-auto max-w-3xl px-6 py-16">
-        <div className="space-y-10 text-sm leading-relaxed text-slate-600">
+        <div className="space-y-10 text-sm leading-relaxed text-muted">
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               1. Acceptance of Terms
             </h2>
             <p>
-              By downloading, installing, or using TogglePresent ("the App"),
+              By downloading, installing, or using TogglePresent (&quot;the App&quot;),
               you agree to be bound by these Terms of Service. If you do not
               agree to these terms, do not use the App.
             </p>
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               2. Description of Service
             </h2>
             <p>
@@ -50,7 +53,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               3. License
             </h2>
             <p>
@@ -62,7 +65,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               4. Purchases & Refunds
             </h2>
             <p>
@@ -74,7 +77,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               5. User Responsibilities
             </h2>
             <p>You agree to:</p>
@@ -94,7 +97,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               6. Intellectual Property
             </h2>
             <p>
@@ -106,11 +109,11 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               7. Disclaimer of Warranties
             </h2>
             <p>
-              The App is provided "as is" without warranties of any kind,
+              The App is provided &quot;as is&quot; without warranties of any kind,
               either express or implied. We do not warrant that the App will be
               uninterrupted, error-free, or free of harmful components. Your
               use of the App is at your sole risk.
@@ -118,7 +121,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               8. Limitation of Liability
             </h2>
             <p>
@@ -130,7 +133,7 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               9. Changes to Terms
             </h2>
             <p>
@@ -142,14 +145,14 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               10. Contact
             </h2>
             <p>
               If you have any questions about these Terms, please contact us at{" "}
               <a
                 href="mailto:support@macoshunt.com"
-                className="text-blue-600 hover:text-blue-700"
+                className="text-cyan transition-colors hover:text-ink"
               >
                 support@macoshunt.com
               </a>

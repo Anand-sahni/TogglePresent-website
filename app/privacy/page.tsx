@@ -1,44 +1,47 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy — TogglePresent",
+  title: "Privacy Policy",
+  description:
+    "TogglePresent collects no personal data. Everything runs locally on your Mac — no analytics, no tracking, no third-party services.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-void">
       {/* Header */}
-      <div className="border-b border-blue-100 bg-slate-50 px-6 py-20 text-center">
+      <div className="border-b border-line bg-panel px-6 py-20 text-center">
         <Link
           href="/"
-          className="mb-6 inline-block text-sm text-blue-600 hover:text-blue-700"
+          className="mb-6 inline-block font-mono text-sm text-cyan transition-colors hover:text-ink"
         >
           &larr; Back to Home
         </Link>
-        <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">
           Privacy Policy
         </h1>
-        <p className="mt-3 text-sm text-slate-500">
+        <p className="mt-3 font-mono text-sm text-muted">
           Last updated: February 14, 2026
         </p>
       </div>
 
       {/* Content */}
       <div className="mx-auto max-w-3xl px-6 py-16">
-        <div className="space-y-10 text-sm leading-relaxed text-slate-600">
+        <div className="space-y-10 text-sm leading-relaxed text-muted">
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               1. Introduction
             </h2>
             <p>
-              TogglePresent ("we", "our", or "the App") is committed to
+              TogglePresent (&quot;we&quot;, &quot;our&quot;, or &quot;the App&quot;) is committed to
               protecting your privacy. This Privacy Policy explains how we
               handle information when you use our macOS application.
             </p>
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               2. Information We Collect
             </h2>
             <p>
@@ -51,7 +54,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               3. Data Storage
             </h2>
             <p>
@@ -62,7 +65,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               4. Analytics & Tracking
             </h2>
             <p>
@@ -73,7 +76,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               5. Third-Party Services
             </h2>
             <p>
@@ -84,7 +87,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               6. macOS Permissions
             </h2>
             <p>
@@ -97,7 +100,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               7. Children&apos;s Privacy
             </h2>
             <p>
@@ -108,7 +111,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               8. Changes to This Policy
             </h2>
             <p>
@@ -120,7 +123,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+            <h2 className="mb-3 font-display text-lg font-bold text-ink">
               9. Contact
             </h2>
             <p>
@@ -128,7 +131,7 @@ export default function PrivacyPage() {
               contact us at{" "}
               <a
                 href="mailto:support@macoshunt.com"
-                className="text-blue-600 hover:text-blue-700"
+                className="text-cyan transition-colors hover:text-ink"
               >
                 support@macoshunt.com
               </a>

@@ -1,0 +1,36 @@
+# TogglePresent
+
+> TogglePresent is a macOS menu bar app that prepares a Mac for presentations, demos, and screen sharing in one click. Flipping the toggle hides desktop icons, mutes the speaker, disables notifications, minimizes all open windows, and switches to a clean wallpaper. Flipping it again restores everything exactly as it was.
+
+## Key facts
+
+- Platform: macOS 14.0 (Sonoma) or later, Apple Silicon and Intel
+- Type: menu bar utility (lives in the macOS menu bar)
+- Price: $4.99 one-time payment, lifetime license, all future updates included
+- No subscription, no account required
+- Privacy: no data collection, no analytics, no telemetry — everything runs locally on the Mac
+
+## Features
+
+1. Hide desktop icons — instantly clears every icon from the desktop
+2. Disable notifications — silences all notification banners and alerts
+3. Mute speaker — cuts audio output with one click
+4. Minimize active apps — sends all open windows to the dock
+5. Change wallpaper — switches to a neutral or branded wallpaper for presenting
+
+Each feature can be enabled or disabled individually; the menu bar toggle flips all chosen features at once and restores them afterward.
+
+## How it works
+
+1. Download the DMG and drag TogglePresent to Applications
+2. Activate with the license key sent by email after purchase
+3. Configure which features to toggle
+4. Click the menu bar icon before presenting; click again to restore
+
+## Links
+
+- Website: https://www.togglepresent.app
+- Purchase: https://dodo.pe/togglepresent
+- Support: support@macoshunt.com
+- Privacy policy: https://www.togglepresent.app/privacy
+- Terms of service: https://www.togglepresent.app/terms

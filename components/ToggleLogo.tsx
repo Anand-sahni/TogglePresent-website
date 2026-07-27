@@ -30,6 +30,8 @@ export default function ToggleLogo({
       viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="img"
+      aria-label="TogglePresent logo"
       onClick={interactive ? () => setIsOn((prev) => !prev) : undefined}
       className={
         interactive
@@ -44,17 +46,7 @@ export default function ToggleLogo({
         width={width}
         height={height}
         rx={trackRadius}
-        fill={isOn ? "#2563eb" : "#94a3b8"}
-        style={{ transition: "fill 0.3s ease" }}
-      />
-      {/* Track inner gradient */}
-      <rect
-        x={0}
-        y={0}
-        width={width}
-        height={height}
-        rx={trackRadius}
-        fill={isOn ? `url(#trackGradient-${uniqueId})` : "none"}
+        fill={isOn ? `url(#trackGradient-${uniqueId})` : "#2a2f4a"}
         style={{ transition: "fill 0.3s ease" }}
       />
       {/* Thumb */}
@@ -65,9 +57,7 @@ export default function ToggleLogo({
         height={thumbSize}
         rx={thumbRadius}
         fill={`url(#thumbGradient-${uniqueId})`}
-        // stroke={isOn ? "#3b82f6" : "#cbd5e1"}
-        // strokeWidth={6}
-        style={{ transition: "x 0.3s ease, stroke 0.3s ease" }}
+        style={{ transition: "x 0.3s ease" }}
       />
       <defs>
         <linearGradient
@@ -77,8 +67,8 @@ export default function ToggleLogo({
           x2={width}
           y2={height}
         >
-          <stop offset="0%" stopColor="#1d4ed8" />
-          <stop offset="100%" stopColor="#3b82f6" />
+          <stop offset="0%" stopColor="#8b7cff" />
+          <stop offset="100%" stopColor="#53d4ff" />
         </linearGradient>
         <linearGradient
           id={`thumbGradient-${uniqueId}`}
@@ -87,8 +77,8 @@ export default function ToggleLogo({
           x2="0"
           y2="1"
         >
-          <stop offset="0%" stopColor="#e0eaff" />
-          <stop offset="100%" stopColor="#bfdbfe" />
+          <stop offset="0%" stopColor="#ffffff" />
+          <stop offset="100%" stopColor="#dfe6ff" />
         </linearGradient>
       </defs>
     </svg>
