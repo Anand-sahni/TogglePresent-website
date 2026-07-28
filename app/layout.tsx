@@ -63,6 +63,12 @@ export const metadata: Metadata = {
     description:
       "Flip your Mac into show mode. One click hides desktop icons, mutes audio, silences notifications, minimizes windows, and swaps your wallpaper.",
   },
+  verification: {
+    google: "g2iKAafEcO0XXZbu1zYPiMAR_XQ8-axBreeUjYpRZac",
+    other: {
+      "msvalidate.01": "37F0E0EFBC679CB78F966973E1177E06",
+    },
+  },
   robots: {
     index: true,
     follow: true,
