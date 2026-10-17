@@ -51,7 +51,7 @@ export default function Pricing() {
                 {/* Price */}
                 <div className="mb-1 flex items-baseline justify-center gap-3">
                   <span className="text-2xl font-medium text-muted/60 line-through decoration-ember/60 decoration-2">
-                    $10
+                    $14.99
                   </span>
                   <span className="font-display text-[64px] font-extrabold leading-none tracking-tight text-ink">
                     $9.99
