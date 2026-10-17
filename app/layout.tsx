@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | TogglePresent",
   },
   description:
-    "TogglePresent is a macOS menu bar app that preps your Mac for presentations in one click: hide desktop icons, mute audio, silence notifications, minimize windows, and swap your wallpaper. $4.99 lifetime license.",
+    "TogglePresent is a macOS menu bar app that preps your Mac for presentations in one click: hide desktop icons, mute audio, silence notifications, minimize windows, and swap your wallpaper. $9.99 lifetime license.",
   keywords: [
     "presentation mode Mac",
     "hide desktop icons Mac",

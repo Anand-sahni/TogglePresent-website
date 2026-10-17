@@ -6,7 +6,7 @@
 
 - Platform: macOS 14.0 (Sonoma) or later, Apple Silicon and Intel
 - Type: menu bar utility (lives in the macOS menu bar)
-- Price: $4.99 one-time payment, lifetime license, all future updates included
+- Price: $9.99 one-time payment, lifetime license, all future updates included
 - No subscription, no account required
 - Privacy: no data collection, no analytics, no telemetry — everything runs locally on the Mac
 

@@ -193,7 +193,7 @@ export default function Hero() {
           href="#pricing"
           className="font-mono text-[13px] text-muted underline decoration-line-bright underline-offset-4 transition-colors hover:text-ink"
         >
-          $4.99 · lifetime license
+          $9.99 · lifetime license
         </a>
       </div>
 

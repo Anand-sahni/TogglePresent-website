@@ -18,7 +18,7 @@ const softwareSchema = {
   url: "https://www.togglepresent.app",
   offers: {
     "@type": "Offer",
-    price: "4.99",
+    price: "9.99",
     priceCurrency: "USD",
     category: "Lifetime license",
   },

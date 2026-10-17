@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "Is this a one-time purchase?",
     answer:
-      "Yes. You pay $4.99 once and get lifetime access to TogglePresent, including all future updates at no extra cost.",
+      "Yes. You pay $9.99 once and get lifetime access to TogglePresent, including all future updates at no extra cost.",
   },
   {
     question: "How does the menu bar toggle work?",

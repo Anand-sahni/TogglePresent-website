@@ -54,7 +54,7 @@ export default function Pricing() {
                     $10
                   </span>
                   <span className="font-display text-[64px] font-extrabold leading-none tracking-tight text-ink">
-                    $4.99
+                    $9.99
                   </span>
                 </div>
                 <p className="mb-8 text-center text-sm text-muted">
